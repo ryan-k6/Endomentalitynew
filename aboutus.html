@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Comic Sans MS;
+  padding: 10px;
+  background-color: #ff9eae;
+font-color: #72cccf;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background-color: #white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #72cccf;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width:25%;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {  
+  float: left;
+  width: 65%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 35%;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #72cccf;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #72cccf;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {  
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">  
+<img src="endo.jpg"
+	alt="Endo Mentality!"
+	class="responsive">
+
+</div>
+
+<div class="topnav">
+<a href = "aboutus.html">About Us</a>
+  <a href="endo.html">Home</a>
+  <a href="mentalhealth.html">Endometriosis and mental health </a>
+  <a href="support.html">Support</a>
+ 
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+	<p style="font-size:30px;"
+		style="font-color: #72cccf;"> 
+Welcome To Endomentality!
+We are a group of 2nd year student nurses currently enrolled in University of Ulster, who have designed Endomentality as a health promotion tool to address the concerning gap regarding availability of information on endometriosis in the public health domain in Northern Ireland and the UK. 
+<br>We hope to raise awareness about the many ways in which having endometriosis can impact one’s quality of life, based on the physical and psychological effects which it can have. With the education derived from high-quality sources that Endomentality provides, we as a society will gain better insight into the struggles which people with endometriosis face and become more confident in our abilities to suitably support them. 
+<br>We also designed Endomentality with the goal of creating a safe and reliable place for those with endometriosis to connect with people experiencing similar struggles and to learn more in general about their condition. 
+<br>We are Endomentality, we want to eliminate the health inequalities faced by anybody who suffers from endometriosis, with the aim of contributing to an improvement in their mental health and quality of life. 
+<br>We appreciate you taking the time to visit Endomentality and we hope you learned something beneficial!
+<br><br>
+Catherine, Eva, Hannah, Kaitlyn, Leanne & Nicole; co-founders of Endomentality. </p>
+     
+    </div>     
+   
+ 
+  </div>
+  <div class="rightcolumn">
+	<div class="card">
+<h3>Our community forum is here to help you connect with others! Write a question or offer some support to people going through similar experiences</h3>
+	  <img src="chat.jpg" 
+		alt="community chat error. Plase try again later"
+		class="responsive"
+		style="width:100%;">
+    </div>
+   
+    
+  </div>
+</div>
+
+<div class="footer">
+<div class="topnav">
+<a href = "aboutus.html">About Us</a>
+  <a href="endo.html">Home</a>
+  <a href="the effects.html">Mental Health</a>
+  <a href="support.html">Support</a>
+</div>
+
+</body>
+</html>
